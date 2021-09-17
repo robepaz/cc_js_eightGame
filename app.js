@@ -9,8 +9,6 @@ const randomNumber = Math.floor(Math.random() * 8)
 
 eightBall = ''
 
-const food = 'salad'
-
 switch (randomNumber) {
   case 1:
     console.log('It is certain')
@@ -37,3 +35,5 @@ switch (randomNumber) {
     console.log('Reply hazy try again')
     break
 }
+
+console.log(eightBall)
